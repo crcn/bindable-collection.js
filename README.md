@@ -6,7 +6,7 @@ bindable.Collection operates like arrays, except they're watchable if anything c
 ### Installation
 
 ```
-npm install bindable --save-exact
+npm install bindable-collection --save-exact
 ```
 
 #### Collection(source)
