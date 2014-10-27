@@ -14,8 +14,8 @@ npm install bindable --save-exact
 The constructor
 
 ```javascript
-var bindable = require("bindable@0.6.0");
-var items = new bindable.Collection([1, 2, 3]);
+var BindableCollection = require("bindable-collection");
+var items = new BindableCollection([1, 2, 3]);
 console.log(items.at(0));
 console.log(items.at(1));
 console.log(items.at(2));
@@ -31,8 +31,8 @@ The source of the collection. This is an array.
 Resets the source of the collection. You can also do this by calling `set('source', array)`
 
 ```javascript
-var bindable = require("bindable@0.6.0");
-var items = new bindable.Collection([1, 2, 3]);
+var BindableCollection = require("bindable-collection");
+var items = new BindableCollection([1, 2, 3]);
 console.log(items.source);
 items.reset([4, 5, 6]);
 console.log(items.source);
@@ -46,8 +46,8 @@ console.log(items.source);
 returns the index of an item
 
 ```javascript
-var bindable = require("bindable@0.6.0");
-var items = new bindable.Collection([1, 2, 3]);
+var BindableCollection = require("bindable-collection");
+var items = new BindableCollection([1, 2, 3]);
 console.log(items.indexOf(1));
 ```
 
@@ -87,8 +87,8 @@ removes the first item from the collection
 - `remove` - emitted when items have been removed
 
 ```javascript
-var bindable = require("bindable@0.6.0");
-var items = new bindable.Collection([1, 2, 3]);
+var BindableCollection = require("bindable-collection");
+var items = new BindableCollection([1, 2, 3]);
 
 items.on("insert", function (result) {
   console.log("insert ", result);
