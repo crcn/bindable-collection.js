@@ -1,0 +1,26 @@
+{
+  "name": "bindable-collection",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mojo-js/bindable-collection.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojo-js/bindable-collection.js/issues"
+  },
+  "homepage": "https://github.com/mojo-js/bindable-collection.js",
+  "dependencies": {
+    "bindable-object": "0.0.x"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1"
+  }
+}
